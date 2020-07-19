@@ -14,7 +14,7 @@ layout: default
     <ul class="tag">
       {% for tag in page.tags %}
       <li>
-        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+        <a href="{{ site.cdnurl }}{{ site.cdnurl }}/tags#{{ tag }}">
           {{ tag }}
         </a>
       </li>
@@ -35,14 +35,14 @@ layout: default
 <div class="pagination">
   {% if page.previous.url %}
     <span class="prev" >
-      <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
+      <a href="{{ site.cdnurl }}{{ site.cdnurl }}{{ page.previous.url }}">
         ← 上一篇
       </a>
     </span>
   {% endif %}
   {% if page.next.url %}
     <span class="next" >
-      <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
+      <a href="{{ site.cdnurl }}{{ site.cdnurl }}{{ page.next.url }}">
         下一篇 →
       </a>
     </span>
