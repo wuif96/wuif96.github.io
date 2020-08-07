@@ -63,14 +63,14 @@ footer-text: Copyright (c) 2020 阿晨
 disqus: # fromendworld
 
 # Gitalk
-gitalk:
-  clientID: 1e3b3cc7e9d52dce85c5
-  clientSecret: 9c9aa3bcca47251ac42d616dcfda70cf780e9366
-  repo: wuif96.github.io
-  owner: wuif96
+#gitalk:
+#  clientID: 1e3b3cc7e9d52dce85c5
+#  clientSecret: 9c9aa3bcca47251ac42d616dcfda70cf780e9366
+#  repo: wuif96.github.io
+#  owner: wuif96
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-173001080-1
+# google_analytics: UA-173001080-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
